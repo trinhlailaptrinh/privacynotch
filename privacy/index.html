@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — PrivacyNotch</title>
+<style>
+body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,"Helvetica Neue",Arial,
+       sans-serif; color:#FFFFFF; background:#000000; line-height:1.6; }
+main { max-width:760px; margin:0 auto; padding:32px 20px 64px; }
+a { color:#02EDD9; }
+h1 { font-size:32px; line-height:1.2; }
+h2 { font-size:21px; margin-top:32px; }
+table { border-collapse:collapse; width:100%; margin:12px 0; }
+th, td { text-align:left; padding:8px; border-bottom:1px solid rgba(127,127,127,.35); vertical-align:top; }
+</style>
+</head>
+<body>
+<main>
+<p><a href="../">←</a></p>
+<h1>Privacy Policy – PrivacyNotch</h1>
+<p><strong>Last updated: October 27, 2026</strong></p>
+<p>This policy applies to the <strong>PrivacyNotch</strong> app on the Mac App Store, developed by <strong>NGUYEN NHUT TRINH</strong> (&quot;we&quot;, &quot;us&quot;).</p>
+<h2>Summary</h2>
+<ul><li>PrivacyNotch has no accounts, no ads, no analytics or tracking tools, and we run no server that receives your data.</li><li>Your camera images, face, calendar, reminders, files and settings are processed only on your Mac.</li><li>The only data that leaves your Mac is your <strong>rounded location</strong> (about 1 km) sent to Apple&#x27;s weather service, and only when you turn weather on.</li></ul>
+<h2>1. Data the app processes</h2>
+<table><thead><tr><th>Data</th><th>Used for</th><th>Stored where</th><th>Leaves your Mac?</th></tr></thead><tbody><tr><td><strong>Face feature vector</strong> of the Mac&#x27;s owner (biometric data), only if you choose to enroll</td><td>Confirming it is you looking at the screen before showing hidden content</td><td>This Mac&#x27;s Keychain, not synced to iCloud</td><td>No</td></tr><tr><td><strong>Camera frames</strong></td><td>Detecting faces, recognizing the owner, detecting a second person looking</td><td>Processed in memory only, no images saved</td><td>No</td></tr><tr><td><strong>Location</strong> (when weather is on)</td><td>Getting the weather where you are</td><td>No location history is kept</td><td><strong>Yes</strong>: coordinates rounded to about 1 km sent to Apple Weather (section 3)</td></tr><tr><td><strong>City name</strong> you type (if you don&#x27;t allow location)</td><td>Getting the weather for that city</td><td>App settings on your Mac</td><td><strong>Yes</strong>: sent to Apple&#x27;s place lookup service</td></tr><tr><td><strong>Calendar</strong></td><td>Showing today&#x27;s events on the notch</td><td>Not copied, read only for display</td><td>No</td></tr><tr><td><strong>Reminders</strong></td><td>Showing open reminders; quick add and mark done when you tap</td><td>Changes live in your Reminders app</td><td>No</td></tr><tr><td><strong>Files on the shelf</strong></td><td>Holding files you drag in for quick use</td><td>Only a reference to the file, contents are not copied</td><td>No, unless you choose AirDrop or Share</td></tr><tr><td><strong>Now playing</strong> (Music, Spotify)</td><td>Showing the song and playback controls</td><td>Not stored</td><td>No</td></tr><tr><td><strong>System stats</strong> (CPU, GPU, RAM, network, disk, battery)</td><td>Showing on the notch and Hub</td><td>Not stored</td><td>No</td></tr><tr><td><strong>App settings</strong></td><td>Remembering your choices</td><td>On your Mac</td><td>No</td></tr><tr><td><strong>Diagnostic log</strong></td><td>Troubleshooting face recognition and hide/show</td><td>On your Mac. Numbers only (head angles, match scores, thresholds, frame counts), app names and hidden/shown state; no images, face vectors or content</td><td>No. It reaches us only if you send it yourself when asking for support</td></tr></tbody></table>
+<h2>2. Camera and biometric data</h2>
+<ul><li><strong>Face enrollment is entirely your choice.</strong> Before turning on the camera to enroll, the app explains what is stored and asks for your consent. You can use the app without enrolling: hidden content can still be opened with Touch ID or your Mac password.</li><li>During enrollment the camera runs for up to about 45 seconds to capture face frames. For verification the camera turns on for a short pulse of about 0.3 seconds when there is content to open (the app&#x27;s reminders, events and timers, the private file shelf). Your Mac&#x27;s green camera light is always on while the camera runs; the app does not work around it.</li><li>The app saves no images. From the frames it computes a <strong>face feature vector</strong> (a list of numbers) and stores only that list in your Mac&#x27;s Keychain, restricted to this device. The vector is not synced to iCloud, never sent anywhere, and we have no copy.</li><li>Touch ID and your Mac password are handled by macOS (LocalAuthentication). The app only receives a pass or fail result, never fingerprint data.</li><li>We process biometric data only on your Mac, based on your <strong>explicit consent</strong> at enrollment (GDPR Art. 9(2)(a); consent for sensitive personal data under Vietnam&#x27;s Decree 13/2023/ND-CP; notice and consent under the Illinois Biometric Information Privacy Act).</li><li>We do <strong>not</strong> collect, possess, sell, lease, trade or share your biometric data.</li><li><strong>Retention:</strong> the vector exists until you delete your face in Settings. Deleting destroys it permanently in the Keychain and also clears your recorded consent. Please delete it before removing the app or selling or giving away your Mac.</li></ul>
+<h2>3. When data leaves your Mac</h2>
+<p>We run no servers of our own. Data leaves your Mac only in these cases:</p>
+<ul><li><strong>Weather (Apple Weather, WeatherKit):</strong> when weather is on, the app sends coordinates rounded to two decimal places (about 1 km) to Apple to get forecasts, roughly every 30 minutes. If you type a city name instead of allowing location, that name is sent to Apple&#x27;s place lookup service. Apple handles this data under Apple&#x27;s privacy policy. It is not linked to your identity and not used for tracking. Turn weather off in Settings and the app stops sending it.</li><li><strong>Apple (purchase):</strong> Apple handles the purchase, your Apple ID and refunds. We never receive your payment details.</li><li><strong>When you contact support:</strong> we receive your email and whatever you choose to attach.</li></ul>
+<p>We do not sell data, show ads, or use third-party analytics or tracking.</p>
+<h2>4. System permissions</h2>
+<p>The app asks for each permission when needed. You can decline or revoke it in System Settings › Privacy &amp; Security:</p>
+<ul><li><strong>Camera:</strong> face recognition and anti-peeking.</li><li><strong>Location:</strong> weather.</li><li><strong>Calendars</strong> and <strong>Reminders:</strong> shown on the notch and Hub.</li><li><strong>Automation</strong> (Music, Spotify): showing what is playing and controlling playback.</li></ul>
+<p>Declining a permission only disables the related feature.</p>
+<h2>5. Your rights</h2>
+<ul><li><strong>Delete your face:</strong> PrivacyNotch Settings › delete enrolled face, at any time.</li><li><strong>Turn weather off</strong> or revoke Location at any time.</li><li><strong>Revoke</strong> Camera, Calendars, Reminders and Automation in System Settings.</li><li><strong>Remove all app data:</strong> delete the app; the diagnostic log sits in the app&#x27;s Logs folder and can be deleted manually.</li><li>Depending on where you live (for example the EU/EEA or Vietnam), you have rights to access, correct, delete, restrict, object to processing, withdraw consent and complain to a data protection authority. Because we hold none of your data, you can exercise most of these rights directly on your Mac; contact us if you need help.</li></ul>
+<h2>6. Children</h2>
+<p>The app is not directed at children and we do not knowingly collect children&#x27;s data. People under the age of majority where they live should enroll their face only with the consent of a parent or guardian.</p>
+<h2>7. Security</h2>
+<p>The face vector is kept in the macOS Keychain and is usable only on this Mac while it is unlocked. PrivacyNotch&#x27;s face recognition keeps content private from people around you; it does not replace your password or Touch ID for securing your Mac. No system is perfectly secure.</p>
+<h2>8. Changes</h2>
+<p>When this policy changes, we update the date at the top. Material changes about biometric data or data leaving your Mac will be announced in the app before they take effect.</p>
+<h2>9. Contact</h2>
+<p><strong>NGUYEN NHUT TRINH</strong> – trinhnn1509x@gmail.com</p>
+</main>
+</body>
+</html>
